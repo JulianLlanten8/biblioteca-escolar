@@ -91,7 +91,9 @@ export default {
           .catch((err) => {
             console.error(err);
           });
-      } catch (error) {}
+      } catch (error) {
+        alert(error);
+      }
     },
   },
 };

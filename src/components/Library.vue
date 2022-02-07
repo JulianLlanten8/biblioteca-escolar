@@ -107,7 +107,8 @@ export default {
         console.log(this.books);
       })
       .catch((err) => {
-        console.error(err);
+        this.load = false;
+        alert(err);
       });
   },
 
